@@ -1,0 +1,71 @@
+{
+  "levels": [
+    {
+      "question": "Maayong ____ [Cebuano] \n\n(Magandang Umaga: [Tagalog])",
+      "correctAnswer": "Buntag",
+      "wrongAnswer1": "Dili",
+      "wrongAnswer2": "Diha"
+    },
+    {
+      "question": "Ako'y nakagat ng _____ [Batangueño]\n\n(Ako ay nakagat ng langgam: [Tagalog])",
+      "correctAnswer": "Guyam",
+      "wrongAnswer1": "Ikos",
+      "wrongAnswer2": "Utong"
+    },
+    {
+      "question": "Aniat' ______? [Ilokano] \n\n(Ano ang Pangalan mo?: [Tagalog])",
+      "correctAnswer": "Naganmo",
+      "wrongAnswer1": "Utong",
+      "wrongAnswer2": "Napekpek"
+    },
+    {
+      "question": "_______ sa panaon naatan [Pangasinense] \n\n(Ang init ng Panahon ngayon: [Tagalog])",
+      "correctAnswer": "Ampetang",
+      "wrongAnswer1": "Ambele",
+      "wrongAnswer2": "Adelle"
+    },
+    {
+      "question": "_______ ka pay buwek mo. [Pangasinense] \n(Mag suklay ka ng buhok mo: [Tagalog])",
+      "correctAnswer": "Man-sagaysay",
+      "wrongAnswer1": "Mag-sagaysay",
+      "wrongAnswer2": "Mag-sanaysay"
+    },
+    {
+      "question": "____ ak didi [Waray] \n\n(Nawawala ako: [Tagalog])",
+      "correctAnswer": "Nawawara",
+      "wrongAnswer1": "Warawanai",
+      "wrongAnswer2": "Wara"
+    },
+    {
+      "question": "_____ ka mag-Ingles? [Bicolano] \n\n(Marunong ka mag-Ingles?: [Tagalog])",
+      "correctAnswer": "Tatao",
+      "wrongAnswer1": "Tatayo",
+      "wrongAnswer2": "Watashi"
+    },
+    {
+      "question": "________ ak la [Pangasinense] \n\n(Inaantok ako: [Tagalog])",
+      "correctAnswer": "Makakaugip",
+      "wrongAnswer1": "Makakaguhit",
+      "wrongAnswer2": "Magkangsuki"
+    },
+    {
+      "question": "Naimbag a _____ [Ilokano] \n\n(Magandang Umaga: [Tagalog])",
+      "correctAnswer": "Bigat",
+      "wrongAnswer1": "Gaan",
+      "wrongAnswer2": "Kaon"
+    },
+    {
+      "question": "_____ ko Maisip [Bisaya] \n\n(Hindi ko maisip: [Tagalog])",
+      "correctAnswer": "Dili",
+      "wrongAnswer1": "Wari",
+      "wrongAnswer2": "Nanii"
+    },
+    {
+      "question": "Ta ama yo _______ [Chavacano] \n\n(Mahal kita: [Tagalog])",
+      "correctAnswer": "Contigo",
+      "wrongAnswer1": "Contamigo",
+      "wrongAnswer2": "Mi ihos"
+    }
+  ]
+}
+

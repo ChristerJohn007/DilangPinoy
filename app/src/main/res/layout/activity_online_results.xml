@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgchoiceswhite2"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_results_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/convergence"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="Stage\n Summary"
+        android:textAlignment="center"
+        android:textColor="@color/text_color_black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stage_name_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Stage name"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_results_title" />
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/play_btn"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/button_next_stage"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/next_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stage_name_tv">
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/online_correct_answers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/convergence"
+                android:text="@string/correct_text"
+                android:textColor="#479147"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/online_stage_multiplier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/convergence"
+                android:text="Stage multiplier:"
+                android:textColor="@color/text_color_black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/online_wrong_answers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/convergence"
+                android:text="@string/wrong_text"
+                android:textColor="#FF4500"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/online_stage_multiplier2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/convergence"
+                android:text="Stage multiplier:"
+                android:textColor="@color/text_color_black"
+                android:textSize="24sp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/text_color_black" />
+
+            <TextView
+                android:id="@+id/online_stage_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/convergence"
+                android:text="Stage Total:"
+                android:textAlignment="center"
+                android:textColor="@color/text_color_black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/online_total_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/convergence"
+                android:text="Grand Total Score:"
+                android:textAlignment="center"
+                android:textColor="@color/text_color_black"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

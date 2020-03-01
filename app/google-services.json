@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "62560393658",
+    "firebase_url": "https://dilangpinoydb.firebaseio.com",
+    "project_id": "dilangpinoydb",
+    "storage_bucket": "dilangpinoydb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62560393658:android:72113e65738710eb0ba583",
+        "android_client_info": {
+          "package_name": "com.example.dilangpinoy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62560393658-rnl746aq4ge8oe3bda6jbfh8330gfokn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKhsaTrbo91GSG0djDEnVL3lU_P0Pqcu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62560393658-rnl746aq4ge8oe3bda6jbfh8330gfokn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

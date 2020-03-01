@@ -1,0 +1,71 @@
+{
+  "levels": [
+    {
+      "question": "Tagalog:Pusa \n\nBicolano:___",
+      "correctAnswer": "Ikos",
+      "wrongAnswer1": "Ikoy",
+      "wrongAnswer2": "Langgam"
+    },
+    {
+      "question": "Batangueno: Guyam \n\nTagalong:___",
+      "correctAnswer": "Langgam",
+      "wrongAnswer1": "Chewing gum",
+      "wrongAnswer2": "Hipon"
+    },
+    {
+      "question": "Tagalog:Buhok \n\nPangasinense:_____",
+      "correctAnswer": "Buwek",
+      "wrongAnswer1": "Luwek",
+      "wrongAnswer2": "Bahuk"
+    },
+    {
+      "question": "Ampetang:Pangasinense \n\nTagalog:____",
+      "correctAnswer": "Mainit",
+      "wrongAnswer1": "Malamig",
+      "wrongAnswer2": "Maligamgam"
+    },
+    {
+      "question": "Tagalog:Sitaw \n\nIlocano:____",
+      "correctAnswer": "Utong",
+      "wrongAnswer1": "Baktong",
+      "wrongAnswer2": "Kutang"
+    },
+    {
+      "question": "Tagalog:Maganda \n\nWaray:___",
+      "correctAnswer": "Maanyag",
+      "wrongAnswer1": "Kaanyag",
+      "wrongAnswer2": "Kaanyo"
+    },
+    {
+      "question": "Ilocano:Napekpek \n\nTagalog:_____",
+      "correctAnswer": "Napuno",
+      "wrongAnswer1": "Gabi",
+      "wrongAnswer2": "Hapon"
+    },
+    {
+      "question": "Tagalog:Maliit \n\nBassit:____",
+      "correctAnswer": "Ilocano",
+      "wrongAnswer1": "Hiligaynon",
+      "wrongAnswer2": "Batangueño"
+    },
+    {
+      "question": "Ag-Tagainep:Ilocano \n\nTagalog:_____",
+      "correctAnswer": "Panaginip",
+      "wrongAnswer1": "Sumilip",
+      "wrongAnswer2": "Ahit"
+    },
+    {
+      "question": "Tagalog:Mahal \n\nPangga:____",
+      "correctAnswer": "Kapampangan",
+      "wrongAnswer1": "Bisaya",
+      "wrongAnswer2": "Pangasinense"
+    },
+    {
+      "question": "Gabok:Batangueño \n\nTagalog:_____",
+      "correctAnswer": "Alikabok",
+      "wrongAnswer1": "Alingasaw",
+      "wrongAnswer2": "Agiw"
+    }
+  ]
+}
+

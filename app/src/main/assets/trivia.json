@@ -1,0 +1,16 @@
+{
+  "trivia": [
+    {
+      "text": "Trivia 1",
+      "imagePath":"stage_image.png"
+    },
+    {
+      "text": "Trivia 2",
+      "imagePath":"stage_image.png"
+    },
+    {
+      "text": "Trivia 3",
+      "imagePath":"stage_image.png"
+    }
+  ]
+}

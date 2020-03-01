@@ -1,0 +1,101 @@
+{
+	"levels": [
+		{
+			"question": "Uragon ka! (Bicolano)",
+			"correctAnswer": "Matigas ang ulo mo!",
+			"wrongAnswer1": "Gago ka!",
+			"wrongAnswer2": "Mali ka!"
+		},
+		{
+			"question": "Marhay na Banggi (Bicolano)",
+			"correctAnswer": "Magandang Gabi",
+			"wrongAnswer1": "Magandang Umaga",
+			"wrongAnswer2": "Magandang Hapon"
+		},
+		{
+			"question": "Iyo man(Bicolano)",
+			"correctAnswer": "Oo nga",
+			"wrongAnswer1": "Hindi nga",
+			"wrongAnswer2": "Ikaw yun"
+		},
+		{
+			"question": "Maayong Buntag! (Bisaya)",
+			"correctAnswer": "Magandang Umaga",
+			"wrongAnswer1": "Magandang Gabi",
+			"wrongAnswer2": "Magandang Tanghali"
+		},
+		{
+			"question": "Ambot sa imong lubot (Bisaya)",
+			"correctAnswer": "Ewan ko sa pwet mo",
+			"wrongAnswer1": "Ewan ko sa nanay mo",
+			"wrongAnswer2": "Ewan ko sa robot mo"
+		},
+		{
+			"question": "Naa kay Uyab? (Bisaya)",
+			"correctAnswer": "May syota ka ba?",
+			"wrongAnswer1": "May kapatid ka ba?",
+			"wrongAnswer2": "May bayabas ka pa?"
+		},
+		{
+			"question": "Naimbag a bigat (Ilokano)",
+			"correctAnswer": "Magandang Umaga",
+			"wrongAnswer1": "Magandang Gabi",
+			"wrongAnswer2": "Magandang Hapon"
+		},
+		{
+			"question": "Ay-ayaten ka (Ilokano)",
+			"correctAnswer": "Mahal kita",
+			"wrongAnswer1": "Mataba ka",
+			"wrongAnswer2": "Mag-iingat ka"
+		},
+		{
+			"question": "Adios (Chavacano)",
+			"correctAnswer": "Paalam",
+			"wrongAnswer1": "Kamusta",
+			"wrongAnswer2": "Sayonara"
+		},
+		{
+			"question": "Cuanto Este? (Chavacano)",
+			"correctAnswer": "Magkano ito?",
+			"wrongAnswer1": "Kamusta ikaw?",
+			"wrongAnswer2": "Ilan ito?"
+		},
+		{
+			"question": "Ta ama yo contigo (Chavacano)",
+			"correctAnswer": "Mahal kita",
+			"wrongAnswer1": "Hindi ko na kaya",
+			"wrongAnswer2": "Hindi ko na alam"
+		},
+		{
+			"question": "Ako'y kinagat ng Guyam (Batangueño)",
+			"correctAnswer": "Ako ay kinagat ng Langgam",
+			"wrongAnswer1": "Ako ay kinagat ng Surot",
+			"wrongAnswer2": "Ako ay Kinagat ng Aso"
+		},
+		{
+			"question": "Ampetang sa panaon naatan (Pangasinense)",
+			"correctAnswer": "Mainit ang panahon ngayon",
+			"wrongAnswer1": "Malamig ang panahon ngayon",
+			"wrongAnswer2": "Maulan ang panahon ngayon"
+		},
+		{
+			"question": "Makakaugip ak la (Pangasinense)",
+			"correctAnswer": "Mainit ang panahon ngayon",
+			"wrongAnswer1": "Malamig ang panahon ngayon",
+			"wrongAnswer2": "Maulan ang panahon ngayon"
+		},
+		{
+			"question": "Man-sagaysay ka pay buwek mo. (Pangasinense)",
+			"correctAnswer": "Mag suklay ka nga ng buhok mo",
+			"wrongAnswer1": "Mag bungkal ka ng lupa mo",
+			"wrongAnswer2": "Mag linis ka ng Katawan mo"
+		},
+		{
+			"question": "Dili ko maisip ang sinasabi nimu. (Bisaya)",
+			"correctAnswer": "Hindi ko maisip ang sinasabi mo",
+			"wrongAnswer1": "Naiisip ko ang sinasabi mo",
+			"wrongAnswer2": "Demonyo ka mag isip"
+		}
+	]
+}
+

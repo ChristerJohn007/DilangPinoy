@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="level_failed_color">#FD0000</color>
+    <color name="level_succeed_color">#04DF3B</color>
+
+    <color name="leaderboards_background">#F1F1F1</color>
+
+    <color name="text_color_black">#1F1F1F</color>
+    <color name="text_color_red">#FC0B0B</color>
+    <color name="text_color_blue">#0B6BFC</color>
+    <color name="text_color_purple">#FC0BF0</color>
+
+
+    <color name="transparent">#00FFFFFF</color>
+</resources>

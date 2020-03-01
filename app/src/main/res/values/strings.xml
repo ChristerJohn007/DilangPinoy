@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Dilang Pinoy</string>
+
+    <string name="play_btn">Tara na!</string>
+    <string name="leaderboards_btn">Competitive Online Leaderboard Battle</string>
+
+    <string name="main_title">Dilang\nPinoy</string>
+    <string name="stages_title">Stage\nSelection</string>
+    <string name="leaderboards_title">Online\nLeaderboard\nBattle</string>
+
+    <string name="correct_text">Correct Answers:‎‎‎‎</string>
+    <string name="wrong_text">Wrong Answers:</string>
+    <string name="mistakes_text">Mistakes:</string>
+    <string name="stage_complete">Next Stage Unlocked!</string>
+    <string name="stage_failed">Stage Failed. We\'ll get \'em next time</string>
+    <string name="button_next_stage">Next Stage</string>
+    <string name="button_retry">Retry Stage</string>
+
+    <string name="stage3">Stage 3: Tap the Pairs</string>
+    <string name="stage3_inst">Pagtambalin ang magkaparehas na mga salita</string>
+    <string name="stage2">Stage 2: Guess the Phrase</string>
+    <string name="stage2_inst">Isalin ang pangungusap</string>
+    <string name="stage1">Stage 1: Pictionary</string>
+    <string name="stage1_inst">Piliin ang lawarang angkop sa salita</string>
+    <string name="stage4">Stage 4: Fill in the Blanks</string>
+    <string name="stage4_inst">Kumpletuhin ang pangungusap gamit ang <u>keyword</u> mula sa wika mo</string>
+    <string name="stage5">Stage 5: Analogy</string>
+    <string name="stage5_inst">Alamin ang alternatibong salita na katumbas ng ibinigay na salita</string>
+    <string name="stage6">Stage 6: Ancient Language</string>
+    <string name="stage6_inst">Alamin kung ano at saan ginagamit ang kasulatang nasa larawan</string>
+    <string name="hardcore_pairs">HARDCORE: Tap the Pairs</string>
+    <string name="hardcore_phrase">HARDCORE: Guess the Phrase</string>
+    <string name="hardcore_pictionary">HARDCORE: Pictionary</string>
+    <string name="hardcore_blanks">HARDCORE: Fill in the Blanks</string>
+    <string name="hardcore_analogy">HARDCORE: Analogy</string>
+    <string name="hardcore_ancient">HARDCORE: Ancient</string>
+
+
+    <string name="title_activity_stages">StagesActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

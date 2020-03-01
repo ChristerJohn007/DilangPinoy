@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dilangpinoy">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher2_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.StagesActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity android:name=".ui.stages.TapThePairsActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.LeaderboardsActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.OnlineSummaryActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.OnlineSubmitActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.TriviaActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.ResultsActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.stages.GuessThePhraseActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.stages.PictionaryActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.stages.FillInTheBlanksActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.stages.AnalogyActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.stages.AncientActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.stages.EasterEgg1" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.MainActivity"
+            android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".ui.SplashActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.stages.HardcorePairsActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
+        <service
+            android:name=".services.MusicService"
+            android:enabled="true" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>

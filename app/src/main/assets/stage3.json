@@ -1,0 +1,210 @@
+{
+  "levels": [
+    {
+      "question": "Ikos (Bicolano)",
+      "images": [
+        {
+          "imagePath": "cat.jpg",
+          "imageText": "Pusa"
+        },
+        {
+          "imagePath": "bird.jpg",
+          "imageText": "Ibon"
+        },
+        {
+          "imagePath": "butiki.jpg",
+          "imageText": "Butiki"
+        }
+      ]
+    },
+    {
+      "question": "Utong (Ilocano)",
+      "images": [
+        {
+          "imagePath": "utong.jpg",
+          "imageText": "Sitaw"
+        },
+        {
+          "imagePath": "maruya.jpg",
+          "imageText": "Maruya"
+        },
+        {
+          "imagePath": "sundotkulangot.jpg",
+          "imageText": "Sundot kulangot"
+        }
+      ]
+    },
+    {
+      "question": "Guyam (Batangueño)",
+      "images": [
+        {
+          "imagePath": "guyam.jpg",
+          "imageText": "Langgam"
+        },
+        {
+          "imagePath": "cat.jpg",
+          "imageText": "Pusa"
+        },
+        {
+          "imagePath": "butiki.jpg",
+          "imageText": "Butiki"
+        }
+      ]
+    },
+    {
+      "question": "Malipayon (Cebuano)",
+      "images": [
+        {
+          "imagePath": "malipayon.jpg",
+          "imageText": "Masaya"
+        },
+        {
+          "imagePath": "malungkot.jpg",
+          "imageText": "Malungkot"
+        },
+        {
+          "imagePath": "maliit.jpg",
+          "imageText": "Maliit"
+        }
+      ]
+    },
+    {
+      "question": "Napekpek (Ilocano)",
+      "images": [
+        {
+          "imagePath": "napekpek.jpg",
+          "imageText": "Napuno"
+        },
+        {
+          "imagePath": "eating.jpg",
+          "imageText": "Kumakain"
+        },
+        {
+          "imagePath": "agueyet.jpg",
+          "imageText": "Nakagat"
+        }
+      ]
+    },
+    {
+      "question": "Angueyet (Pangasinense)",
+      "images": [
+        {
+          "imagePath": "agueyet.jpg",
+          "imageText": "Lamok"
+        },
+        {
+          "imagePath": "cat.jpg",
+          "imageText": "Pusa"
+        },
+        {
+          "imagePath": "butiki.jpg",
+          "imageText": "Butiki"
+        }
+      ]
+    },
+    {
+      "question": "Dalem (Ilokano)",
+      "images": [
+        {
+          "imagePath": "dalem.jpg",
+          "imageText": "Atay"
+        },
+        {
+          "imagePath": "gabok.jpg",
+          "imageText": "Alikabok"
+        },
+        {
+          "imagePath": "sundotkulangot.jpg",
+          "imageText": "Sundot Kulangot"
+        }
+      ]
+    },
+    {
+      "question": "Atiddog (Ilokano)",
+      "images": [
+        {
+          "imagePath": "atiddog.jpg",
+          "imageText": "Mahaba"
+        },
+        {
+          "imagePath": "cat.jpg",
+          "imageText": "Pusa"
+        },
+        {
+          "imagePath": "gabok.jpg",
+          "imageText": "Alikabok"
+        }
+      ]
+    },
+    {
+      "question": "Guti (Waray)",
+      "images": [
+        {
+          "imagePath": "maliit.jpg",
+          "imageText": "Maliit"
+        },
+        {
+          "imagePath": "cat.jpg",
+          "imageText": "Pusa"
+        },
+        {
+          "imagePath": "atiddog.jpg",
+          "imageText": "Mahaba"
+        }
+      ]
+    },
+    {
+      "question": "Kaunin (Mindoreño)",
+      "images": [
+        {
+          "imagePath": "kaunin.jpg",
+          "imageText": "Sunduin"
+        },
+        {
+          "imagePath": "eating.jpg",
+          "imageText": "Kainin"
+        },
+        {
+          "imagePath": "butiki.jpg",
+          "imageText": "Butiki"
+        }
+      ]
+    },
+    {
+      "question": "Gabok (Batangueño)",
+      "images": [
+        {
+          "imagePath": "gabok.jpg",
+          "imageText": "Alikabok"
+        },
+        {
+          "imagePath": "katre.jpg",
+          "imageText": "Kama"
+        },
+        {
+          "imagePath": "butiki.jpg",
+          "imageText": "Butiki"
+        }
+      ]
+    },
+    {
+      "question": "Katre (Cebuano)",
+      "images": [
+        {
+          "imagePath": "katre.jpg",
+          "imageText": "Kama"
+        },
+        {
+          "imagePath": "cat.jpg",
+          "imageText": "Pusa"
+        },
+        {
+          "imagePath": "kapre.jpg",
+          "imageText": "Kapre"
+        }
+
+      ]
+    }
+  ]
+}
+

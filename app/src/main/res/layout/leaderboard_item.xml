@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/rank_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/convergence"
+        android:text="#1"
+        android:textColor="@color/text_color_black"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/leaderboard_region">
+
+        <TextView
+            android:id="@+id/leader_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/convergence"
+            android:text="@string/app_name"
+            android:textColor="@color/text_color_black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/leader_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/convergence"
+            android:text="9999999999 pts"
+            android:textColor="@color/text_color_black" />
+
+        <Button
+            android:id="@+id/challenge_btn"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="11dp"
+            android:background="@drawable/challenge_btn"
+            android:text="Challenge"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+</LinearLayout>

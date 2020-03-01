@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stage_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/stage_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/dilangpinoymain"
+        app:civ_border_color="#3f51b5"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/stage_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:gravity="center_horizontal"
+        android:text="Stage"
+        android:textColor="@color/text_color_black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/stage_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="Tap the pairs"
+        android:textColor="@color/text_color_black"
+        android:textSize="25sp" />
+
+</LinearLayout>

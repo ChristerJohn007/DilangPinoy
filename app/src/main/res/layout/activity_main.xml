@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <ImageView
+        android:id="@+id/mainlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/dilangpinoymain"
+        android:fontFamily="@font/convergence"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/next_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/easterEgg1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainlogo">
+
+        <Button
+            android:id="@+id/play_btn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/play_btn"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/play_btn"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/leaderboards_btn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/leaderboards_btn"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/leaderboards_btn"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/easterEgg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="public Stable Release Version 1.6969"
+        android:textColor="#FFF"
+        android:background="@drawable/bgapp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="viewEaster1"
+        android:textAllCaps="false"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

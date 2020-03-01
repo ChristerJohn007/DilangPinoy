@@ -1,0 +1,205 @@
+{
+  "levels": [
+    {
+      "pairs": [
+        {
+          "option1": "Utong",
+          "option2": "Sitaw"
+        },
+        {
+          "option1": "Langgam",
+          "option2": "Guyam"
+        },
+        {
+          "option1": "Haan",
+          "option2": "Wag"
+        },
+        {
+          "option1": "Wen",
+          "option2": "Oo"
+        }
+      ]
+    },
+    {
+      "pairs": [
+        {
+          "option1": "Madi",
+          "option2": "Hindi"
+        },
+        {
+          "option1": "Naperdi",
+          "option2": "Nasira"
+        },
+        {
+          "option1": "Napekpek",
+          "option2": "Napuno"
+        },
+        {
+          "option1": "Umaning",
+          "option2": "Magkano"
+        }
+      ]
+    },
+    {
+      "pairs": [
+        {
+          "option1": "Balay",
+          "option2": "Bahay"
+        },
+        {
+          "option1": "Dili",
+          "option2": "Hindi"
+        },
+        {
+          "option1": "Usahay",
+          "option2": "Minsan"
+        },
+        {
+          "option1": "Ambot",
+          "option2": "Di ko alam"
+        }
+      ]
+    },
+    {
+      "pairs": [
+        {
+          "option1": "Dalem",
+          "option2": "Atay"
+        },
+        {
+          "option1": "Inaantok",
+          "option2": "Duka"
+        },
+        {
+          "option1": "Masaya",
+          "option2": "Malipayon"
+        },
+        {
+          "option1": "Lamok",
+          "option2": "Angueyet"
+        }
+      ]
+    },
+    {
+      "pairs": [
+        {
+          "option1": "Lamok",
+          "option2": "Amuk"
+        },
+        {
+          "option1": "Tamsi",
+          "option2": "Ibon"
+        },
+        {
+          "option1": "Atiddog",
+          "option2": "Mahaba"
+        },
+        {
+          "option1": "Guti",
+          "option2": "Maliit"
+        }
+      ]
+    },
+    {
+      "pairs": [
+        {
+          "option1": "Maliit",
+          "option2": "Gamay"
+        },
+        {
+          "option1": "Atiddog",
+          "option2": "Mahaba"
+        },
+        {
+          "option1": "Kaunin",
+          "option2": "Sunduin"
+        },
+        {
+          "option1": "Busayak",
+          "option2": "Aksaya"
+        }
+      ]
+    },
+    {
+      "pairs": [
+        {
+          "option1": "Kantiyaw",
+          "option2": "Inasar"
+        },
+        {
+          "option1": "Balaodnon",
+          "option2": "Totoo"
+        },
+        {
+          "option1": "Gabok",
+          "option2": "Alikabok"
+        },
+        {
+          "option1": "Sala",
+          "option2": "Mintis"
+        }
+      ]
+    },
+    {
+      "pairs": [
+        {
+          "option1": "Makaba",
+          "option2": "Mahaba"
+        },
+        {
+          "option1": "Iba",
+          "option2": "Sabali"
+        },
+        {
+          "option1": "Sarita",
+          "option2": "Salita"
+        },
+        {
+          "option1": "Banuar",
+          "option2": "Bayani"
+        }
+      ]
+    },
+    {
+      "pairs": [
+        {
+          "option1": "Kitse",
+          "option2": "Tansan"
+        },
+        {
+          "option1": "ligawgaw",
+          "option2": "Kiliti"
+        },
+        {
+          "option1": "Naraniag",
+          "option2": "Maliwanag"
+        },
+        {
+          "option1": "Malamarine",
+          "option2": "Mahiyain"
+        }
+      ]
+    },
+    {
+      "pairs": [
+        {
+          "option1": "Pula",
+          "option2": "Malutu"
+        },
+        {
+          "option1": "Malaksot",
+          "option2": "Pangit"
+        },
+        {
+          "option1": "Madalumdum",
+          "option2": "Madilim"
+        },
+        {
+          "option1": "Katre",
+          "option2": "Kama"
+        }
+      ]
+    }
+  ]
+}
+

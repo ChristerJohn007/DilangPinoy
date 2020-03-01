@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <TextView
+        android:id="@+id/triviaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:fontFamily="@font/convergence"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="Fact: \nBSCpE 5-2 is the \nBEST \nsection in CpE"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/next_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/easterEgg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="public release version 1.6969"
+        android:textColor="#FFF"
+        android:background="@drawable/bgapp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

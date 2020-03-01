@@ -1,0 +1,226 @@
+{
+  "levels": [
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Ba",
+      "images": [
+        {
+          "imagePath": "pangix.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "kalkal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "salsal.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Ka",
+      "images": [
+        {
+          "imagePath": "kalkal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "pangix.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "salsal.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Baka",
+      "images": [
+        {
+          "imagePath": "bakaba.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "tawaba.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "sayaba.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Sa",
+      "images": [
+        {
+          "imagePath": "salsal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "yalyal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "walwal.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Ya",
+      "images": [
+        {
+          "imagePath": "yalyal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "taltal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "palpal.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Saya",
+      "images": [
+        {
+          "imagePath": "sayaba.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "tayaba.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "tawaba.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na La",
+      "images": [
+        {
+          "imagePath": "lallal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "yalyal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "taltal.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Wa",
+      "images": [
+        {
+          "imagePath": "walwal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "kalkal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "yalyal.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Lawa",
+      "images": [
+        {
+          "imagePath": "lawaba.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "sayaba.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "tayaba.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Pa",
+      "images": [
+        {
+          "imagePath": "palpal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "salsal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "pangix.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Pasa",
+      "images": [
+        {
+          "imagePath": "pasaba.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "bakaba.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "lawaba.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Ta",
+      "images": [
+        {
+          "imagePath": "taltal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "kalkal.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "salsal.jpg",
+          "imageText": "_______"
+        }
+      ]
+    },
+    {
+      "question": "Alin sa mga sumusunod ang may tunog na Tawa",
+      "images": [
+        {
+          "imagePath": "tawaba.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "bakaba.jpg",
+          "imageText": "_______"
+        },
+        {
+          "imagePath": "lawaba.jpg",
+          "imageText": "_______"
+        }
+      ]
+    }
+    ]
+}
+
