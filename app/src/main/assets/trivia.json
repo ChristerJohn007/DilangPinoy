@@ -1,16 +1,16 @@
 {
   "trivia": [
     {
-      "text": "Trivia 1",
-      "imagePath":"stage_image.png"
+      "text": "Alam mo ba na ang TikTok ay nakakasira ng pag-iisip?",
+      "imagePath":"ph8.jpg"
     },
     {
-      "text": "Trivia 2",
-      "imagePath":"stage_image.png"
+      "text": "Mali ka 'nyan Kapatid!",
+      "imagePath":"ph9.jpg"
     },
     {
-      "text": "Trivia 3",
-      "imagePath":"stage_image.png"
+      "text": "We're going on a trip ...",
+      "imagePath":"ph10.png"
     }
   ]
 }

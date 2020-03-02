@@ -4,7 +4,7 @@
       "title": "Stage 1:",
       "subtitle": "Pictionary",
       "type": "Pictionary",
-      "imagePath":"stage_image.png" ,
+      "imagePath":"ph1.png" ,
       "stageFile": "stage3.json",
       "mistakesAllowed": 5,
       "time": 30
@@ -13,7 +13,7 @@
       "title": "Stage 2:",
       "subtitle": "Guess the Phrase",
       "type": "Guess the Phrase",
-      "imagePath":"stage_image.png" ,
+      "imagePath":"ph3.png" ,
       "stageFile": "stage2.json",
       "mistakesAllowed": 5,
       "time": 30
@@ -22,7 +22,7 @@
       "title": "Stage 3:",
       "subtitle": "Tap the Pairs",
       "type": "Tap the Pairs",
-      "imagePath":"stage_image.png" ,
+      "imagePath":"ph4.png" ,
       "stageFile": "stage1.json",
       "mistakesAllowed": 5,
       "time": 50
@@ -32,7 +32,7 @@
       "title": "Stage 4:",
       "subtitle": "Fill in the Blanks",
       "type": "Fill in the Blanks",
-      "imagePath":"stage_image.png" ,
+      "imagePath":"ph5.png" ,
       "stageFile": "stage4.json",
       "mistakesAllowed": 4,
       "time": 30
@@ -41,7 +41,7 @@
       "title": "Stage 5:",
       "subtitle": "Analogy",
       "type": "Analogy",
-      "imagePath":"stage_image.png" ,
+      "imagePath":"ph6.jpg" ,
       "stageFile": "stage5.json",
       "mistakesAllowed": 3,
       "time": 25
@@ -50,7 +50,7 @@
       "title": "Stage 6:",
       "subtitle": "Ancient Language",
       "type": "Ancient",
-      "imagePath":"stage_image.png" ,
+      "imagePath":"ph7.jpg" ,
       "stageFile": "stage6.json",
       "mistakesAllowed": 3,
       "time": 25

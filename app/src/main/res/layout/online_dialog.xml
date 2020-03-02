@@ -37,7 +37,7 @@
 
         android:layout_marginBottom="20dp"
         android:gravity="center_horizontal"
-        android:text="Score to \nBeat:"
+        android:text="Score to Beat:"
         android:textColor="@color/level_failed_color"
         android:textSize="30sp" />
 

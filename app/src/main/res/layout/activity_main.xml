@@ -9,6 +9,20 @@
     tools:context=".ui.MainActivity">
 
     <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollingbg1"
+        android:src="@drawable/bg2" />
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollingbg2"
+        android:src="@drawable/bg2" />
+
+    <ImageView
         android:id="@+id/mainlogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -65,9 +79,9 @@
         android:id="@+id/easterEgg1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="public Stable Release Version 1.6969"
+        android:text="public Stable Release Version 2.69b"
         android:textColor="#FFF"
-        android:background="@drawable/bgapp"
+        android:background="@color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

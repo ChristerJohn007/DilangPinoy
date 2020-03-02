@@ -11,6 +11,8 @@ import com.example.dilangpinoy.R;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.animation.ValueAnimator;
+import android.view.animation.LinearInterpolator;
 
 public class MainActivity extends BaseActivity {
 
@@ -19,12 +21,35 @@ public class MainActivity extends BaseActivity {
     ImageView logo;
     Button playbutton,leaderboardsBtn;
 
-
+//BGanimation
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final ImageView backgroundOne = (ImageView) findViewById(R.id.scrollingbg1);
+        final ImageView backgroundTwo = (ImageView) findViewById(R.id.scrollingbg2);
+
+        final ValueAnimator animator = ValueAnimator.ofFloat(0.0f, 1.0f);
+        animator.setRepeatCount(ValueAnimator.INFINITE);
+        animator.setInterpolator(new LinearInterpolator());
+        animator.setDuration(100000L);
+        animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                final float progress = (float) animation.getAnimatedValue();
+                final float width = backgroundOne.getWidth();
+                final float translationX = width * progress;
+                backgroundOne.setTranslationX(translationX);
+                backgroundTwo.setTranslationX(translationX - width);
+            }
+        });
+        animator.start();
+
+
+
+
 
         playBtn=findViewById(R.id.play_btn);
         playBtn.setOnClickListener(new View.OnClickListener() {
