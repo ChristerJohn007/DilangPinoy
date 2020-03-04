@@ -40,6 +40,10 @@
             android:configChanges="orientation|keyboardHidden"></activity>
         <activity android:name=".ui.stages.EasterEgg1" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.OnboardingActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+        android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".ui.SliderActivity" android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"></activity>
         <activity android:name=".ui.MainActivity"
             android:theme="@style/FullscreenTheme" android:screenOrientation="portrait"
             android:configChanges="orientation|keyboardHidden">

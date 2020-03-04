@@ -6,12 +6,15 @@ import android.media.AudioAttributes;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.dilangpinoy.R;
 import com.example.dilangpinoy.objects.PictionaryLevel;
+import com.example.dilangpinoy.ui.stages.PictionaryActivity;
 import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
 
@@ -36,6 +39,10 @@ public class PictionaryActivity extends MainStageActivity {
     private LinearLayout[] choices;
     private ImageView[] images;
     private TextView[] imageTexts;
+    ImageView img1;
+    ImageView img2;
+    ImageView img3;
+    LinearLayout levelsbar;
 
     public SoundPool soundPool;
 
@@ -45,6 +52,7 @@ public class PictionaryActivity extends MainStageActivity {
     int kuyawil;
     int correct;
     int wrong;
+
 
 
     private TextView question;
@@ -63,6 +71,7 @@ public class PictionaryActivity extends MainStageActivity {
         mContext = this;
 
         init();
+
 
         choices = new LinearLayout[]{findViewById(R.id.photo_choice_1), findViewById(R.id.photo_choice_2), findViewById(R.id.photo_choice_3)};
         images = new ImageView[]{findViewById(R.id.image_1), findViewById(R.id.image_2), findViewById(R.id.image_3)};
@@ -93,6 +102,19 @@ public class PictionaryActivity extends MainStageActivity {
         correct = soundPool.load(getApplicationContext(), R.raw.correct, 1);
 
 
+        levelsbar=(LinearLayout) findViewById(R.id.linearLayout4);
+
+        levelsbar=(LinearLayout) findViewById(R.id.linearLayout4);
+        Animation lvlbar = AnimationUtils.loadAnimation(PictionaryActivity.this, R.anim.bounce);
+        levelsbar.startAnimation(lvlbar);
+
+
+
+
+
+
+
+
         initLevel(level);
 
 
@@ -105,6 +127,15 @@ public class PictionaryActivity extends MainStageActivity {
 
 
         enableAllButtons();
+
+        img1=(ImageView) findViewById(R.id.image_1);
+        img2=(ImageView) findViewById(R.id.image_2);
+        img3=(ImageView) findViewById(R.id.image_3);
+
+        Animation img1anim = AnimationUtils.loadAnimation(PictionaryActivity.this, R.anim.pop_up_in);
+        img1.startAnimation(img1anim);
+        img2.startAnimation(img1anim);
+        img3.startAnimation(img1anim);
 
 
         question.setText(pictionaryLevels.get(level).getQuestion());

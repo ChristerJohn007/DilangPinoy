@@ -7,7 +7,10 @@ import android.media.MediaPlayer;
 import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.dilangpinoy.R;
@@ -31,6 +34,7 @@ abstract class MainStageActivity extends BaseActivity {
     protected Context mContext;
     private Button backBtn;
     private TextView stageName;
+    LinearLayout levelsbar;
 
     Handler handler = new Handler();
 
@@ -82,6 +86,9 @@ abstract class MainStageActivity extends BaseActivity {
                 finish();
             }
         });
+
+
+
 
         //Initialize the tasks
         updateTime = new Runnable() {
