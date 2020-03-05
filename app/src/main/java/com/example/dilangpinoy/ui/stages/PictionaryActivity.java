@@ -43,6 +43,7 @@ public class PictionaryActivity extends MainStageActivity {
     ImageView img2;
     ImageView img3;
     LinearLayout levelsbar;
+    TextView titlebar;
 
     public SoundPool soundPool;
 
@@ -103,10 +104,13 @@ public class PictionaryActivity extends MainStageActivity {
 
 
         levelsbar=(LinearLayout) findViewById(R.id.linearLayout4);
+        titlebar=(TextView) findViewById(R.id.stage_text);
 
-        levelsbar=(LinearLayout) findViewById(R.id.linearLayout4);
         Animation lvlbar = AnimationUtils.loadAnimation(PictionaryActivity.this, R.anim.bounce);
+        Animation titlebarx = AnimationUtils.loadAnimation(PictionaryActivity.this, R.anim.pop_up2);
+
         levelsbar.startAnimation(lvlbar);
+        titlebar.startAnimation(titlebarx);
 
 
 
