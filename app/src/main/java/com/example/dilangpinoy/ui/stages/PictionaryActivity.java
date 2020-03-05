@@ -42,8 +42,15 @@ public class PictionaryActivity extends MainStageActivity {
     ImageView img1;
     ImageView img2;
     ImageView img3;
+    TextView lvldesc;
+
+
+
+    TextView instruction;
     LinearLayout levelsbar;
     TextView titlebar;
+    TextView currentLeveltext;
+
 
     public SoundPool soundPool;
 
@@ -105,9 +112,13 @@ public class PictionaryActivity extends MainStageActivity {
 
         levelsbar=(LinearLayout) findViewById(R.id.linearLayout4);
         titlebar=(TextView) findViewById(R.id.stage_text);
+        instruction=(TextView) findViewById(R.id.stage_instructions);
+        lvldesc=(TextView) findViewById(R.id.level_description);
 
         Animation lvlbar = AnimationUtils.loadAnimation(PictionaryActivity.this, R.anim.bounce);
-        Animation titlebarx = AnimationUtils.loadAnimation(PictionaryActivity.this, R.anim.pop_up2);
+        Animation titlebarx = AnimationUtils.loadAnimation(PictionaryActivity.this, R.anim.slide_in_bottom);
+        Animation inst = AnimationUtils.loadAnimation(PictionaryActivity.this, R.anim.fadein);
+        Animation lvldsc = AnimationUtils.loadAnimation(PictionaryActivity.this, R.anim.fadein2);
 
         levelsbar.startAnimation(lvlbar);
         titlebar.startAnimation(titlebarx);
@@ -135,11 +146,14 @@ public class PictionaryActivity extends MainStageActivity {
         img1=(ImageView) findViewById(R.id.image_1);
         img2=(ImageView) findViewById(R.id.image_2);
         img3=(ImageView) findViewById(R.id.image_3);
+        currentLeveltext=(TextView) findViewById(R.id.stage_text);
 
         Animation img1anim = AnimationUtils.loadAnimation(PictionaryActivity.this, R.anim.pop_up_in);
+        Animation currentstage = AnimationUtils.loadAnimation(PictionaryActivity.this, R.anim.blink_anim);
         img1.startAnimation(img1anim);
         img2.startAnimation(img1anim);
         img3.startAnimation(img1anim);
+        currentLevelText.startAnimation(currentstage);
 
 
         question.setText(pictionaryLevels.get(level).getQuestion());
