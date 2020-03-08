@@ -6,6 +6,8 @@ import android.media.AudioAttributes;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
 import com.example.dilangpinoy.R;
@@ -26,6 +28,8 @@ import java.util.List;
 import android.media.MediaPlayer;
 import android.media.SoundPool;
 import android.media.AudioManager;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 public class TapThePairsActivity extends MainStageActivity {
 
@@ -33,6 +37,12 @@ public class TapThePairsActivity extends MainStageActivity {
     private Button[] choices;
     MediaPlayer mp;
     public SoundPool soundPool;
+
+
+    TextView instruction;
+    LinearLayout levelsbar;
+    TextView titlebar;
+    TextView currentLeveltext;
 
 
     final int CHOICE_NORMAL = R.drawable.choice_normal;
@@ -95,6 +105,19 @@ public class TapThePairsActivity extends MainStageActivity {
         correct = soundPool.load(getApplicationContext(), R.raw.correct, 1);
 
 
+        levelsbar=(LinearLayout) findViewById(R.id.linearLayout4);
+        titlebar=(TextView) findViewById(R.id.stage_text);
+        instruction=(TextView) findViewById(R.id.stage_instructions);
+
+        Animation lvlbar = AnimationUtils.loadAnimation(TapThePairsActivity.this, R.anim.bounce);
+        Animation titlebarx = AnimationUtils.loadAnimation(TapThePairsActivity.this, R.anim.slide_in_bottom);
+        Animation inst = AnimationUtils.loadAnimation(TapThePairsActivity.this, R.anim.fadein);
+        Animation lvldsc = AnimationUtils.loadAnimation(TapThePairsActivity.this, R.anim.fadein2);
+
+        levelsbar.startAnimation(lvlbar);
+        titlebar.startAnimation(titlebarx);
+
+
 
 
 
@@ -112,6 +135,10 @@ public class TapThePairsActivity extends MainStageActivity {
         suffleArray(leftOptions);
         suffleArray(rightOptions);
         correctAnswers = 0;
+
+        currentLeveltext=(TextView) findViewById(R.id.stage_text);
+        Animation currentstage = AnimationUtils.loadAnimation(TapThePairsActivity.this, R.anim.blink_anim);
+        currentLevelText.startAnimation(currentstage);
 
 
         enableAllButtons();

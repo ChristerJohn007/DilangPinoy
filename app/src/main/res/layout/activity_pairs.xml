@@ -5,7 +5,7 @@
     android:id="@+id/linearLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgapp"
+    android:background="@drawable/bgdirtywhite"
     android:orientation="vertical">
 
 
@@ -13,7 +13,7 @@
         android:id="@+id/back_btn"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_chevron_left_white"
+        android:background="@drawable/ic_chevron_left_black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,7 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="50dp"
         android:background="@drawable/bluetitlebar"
         android:elevation="10dp"
@@ -52,13 +52,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:fontFamily="@font/verdana"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/proximanovabold"
         android:text="@string/stage3_inst"
-        android:textColor="#FFF"
-        android:textSize="18sp"
+        android:textColor="#4c4c4c"
+        android:textSize="25sp"
         android:typeface="normal"
-        app:layout_constraintEnd_toEndOf="@+id/stage_text"
-        app:layout_constraintStart_toStartOf="@+id/stage_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/stage_text" />
 
     <LinearLayout
@@ -74,55 +76,59 @@
         app:layout_constraintTop_toBottomOf="@+id/stage_instructions">
 
         <LinearLayout
-            android:layout_width="150dp"
-            android:layout_height="230dp"
+            android:layout_width="190dp"
+            android:layout_height="270dp"
             android:orientation="vertical">
 
 
             <Button
                 android:id="@+id/choice1"
-                android:layout_width="120dp"
-                android:layout_height="35dp"
+                android:layout_width="170dp"
+                android:layout_height="55dp"
+                android:fontFamily="@font/proximanova"
+                android:textSize="20sp"
                 android:layout_gravity="center"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/choice_normal"
-                android:fontFamily="@font/montserrat"
                 android:text="ASISISISISI234"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/choice2"
-                android:layout_width="120dp"
-                android:layout_height="35dp"
+                android:layout_width="170dp"
+                android:layout_height="55dp"
+                android:fontFamily="@font/proximanova"
+                android:textSize="20sp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/choice_normal"
-                android:fontFamily="@font/montserrat"
                 android:text="@string/q1c2"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/choice3"
-                android:layout_width="120dp"
-                android:layout_height="35dp"
+                android:layout_width="170dp"
+                android:layout_height="55dp"
+                android:fontFamily="@font/proximanova"
+                android:textSize="20sp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/choice_normal"
-                android:fontFamily="@font/montserrat"
                 android:text="@string/q1c3"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/choice4"
-                android:layout_width="120dp"
-                android:layout_height="35dp"
+                android:layout_width="170dp"
+                android:layout_height="55dp"
+                android:fontFamily="@font/proximanova"
+                android:textSize="20sp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/choice_normal"
-                android:fontFamily="@font/montserrat"
                 android:text="@string/q1c4"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black" />
@@ -130,55 +136,59 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="150dp"
-            android:layout_height="230dp"
+            android:layout_width="190dp"
+            android:layout_height="270dp"
             android:orientation="vertical">
 
 
             <Button
                 android:id="@+id/choice5"
-                android:layout_width="120dp"
-                android:layout_height="35dp"
+                android:layout_width="170dp"
+                android:layout_height="55dp"
+                android:fontFamily="@font/proximanova"
+                android:textSize="20sp"
                 android:layout_gravity="center"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/choice_normal"
-                android:fontFamily="@font/montserrat"
                 android:text="@string/q1c5"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/choice6"
-                android:layout_width="120dp"
-                android:layout_height="35dp"
+                android:layout_width="170dp"
+                android:layout_height="55dp"
+                android:fontFamily="@font/proximanova"
+                android:textSize="20sp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/choice_normal"
-                android:fontFamily="@font/montserrat"
                 android:text="@string/q1c6"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/choice7"
-                android:layout_width="120dp"
-                android:layout_height="35dp"
+                android:layout_width="170dp"
+                android:layout_height="55dp"
+                android:fontFamily="@font/proximanova"
+                android:textSize="20sp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/choice_normal"
-                android:fontFamily="@font/montserrat"
                 android:text="@string/q1c7"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/choice8"
-                android:layout_width="120dp"
-                android:layout_height="35dp"
+                android:layout_width="170dp"
+                android:layout_height="55dp"
+                android:fontFamily="@font/proximanova"
+                android:textSize="20sp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/choice_normal"
-                android:fontFamily="@font/montserrat"
                 android:text="@string/q1c8"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black" />
@@ -207,7 +217,7 @@
 
         <TextView
             android:id="@+id/textView_timer"
-            android:layout_width="50dp"
+            android:layout_width="55dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
@@ -215,8 +225,8 @@
             android:gravity="left"
             android:text="60s"
             android:textAlignment="textEnd"
-            android:textColor="#FFF"
-            android:textSize="24sp">
+            android:textColor="#000"
+            android:textSize="28sp">
 
         </TextView>
     </LinearLayout>
@@ -347,7 +357,7 @@
         android:fontFamily="@font/montserrat"
         android:text="Level 1 of 10"
         android:textAlignment="center"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

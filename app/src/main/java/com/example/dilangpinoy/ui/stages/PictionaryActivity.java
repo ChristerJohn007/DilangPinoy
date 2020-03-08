@@ -207,7 +207,7 @@ public class PictionaryActivity extends MainStageActivity {
 
         for (int i = 0; i < choices.length; i++) {
             choices[i].setEnabled(true);
-            imageTexts[i].setTextColor(Color.WHITE);
+            imageTexts[i].setTextColor(Color.rgb(76,76,76));
         }
 
     }

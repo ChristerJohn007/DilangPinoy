@@ -5,7 +5,7 @@
     android:id="@+id/linearLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgapp"
+    android:background="@drawable/bgdirtywhite"
     android:orientation="vertical">
 
 
@@ -13,7 +13,7 @@
         android:id="@+id/back_btn"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_chevron_left_white"
+        android:background="@drawable/ic_chevron_left_black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,7 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="50dp"
         android:background="@drawable/bluetitlebar"
         android:elevation="10dp"
@@ -52,13 +52,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:fontFamily="@font/verdana"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/proximanovabold"
         android:text="@string/stage1_inst"
-        android:textColor="#FFF"
-        android:textSize="18sp"
+        android:textColor="#4c4c4c"
+        android:textSize="25sp"
         android:typeface="normal"
-        app:layout_constraintEnd_toEndOf="@+id/stage_text"
-        app:layout_constraintStart_toStartOf="@+id/stage_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/stage_text" />
 
 
@@ -69,9 +71,14 @@
         android:layout_marginTop="16dp"
         android:text="TextView"
         android:textAlignment="center"
-        android:textColor="#fff"
-        android:textSize="18sp"
+        android:textColor="#000"
+        app:autoSizeMaxTextSize="30sp"
+        app:autoSizeMinTextSize="20sp"
+        app:autoSizeStepGranularity="1sp"
+        app:autoSizeTextType="uniform"
+        android:textSize="30sp"
         android:textStyle="bold"
+        android:fontFamily="@font/montserrat"
         app:layout_constraintEnd_toEndOf="@+id/stage_instructions"
         app:layout_constraintStart_toStartOf="@+id/stage_instructions"
         app:layout_constraintTop_toBottomOf="@+id/stage_instructions" />
@@ -82,9 +89,9 @@
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="1dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/timer_layout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -95,7 +102,7 @@
         <LinearLayout
             android:id="@+id/photo_choice_1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
@@ -116,7 +123,7 @@
                 android:maxLines="1"
                 android:text="@string/s3q1c1"
                 android:textAlignment="center"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textSize="20sp"
                 app:autoSizeMaxTextSize="20sp"
                 app:autoSizeMinTextSize="10sp"
@@ -127,7 +134,7 @@
         <LinearLayout
             android:id="@+id/photo_choice_2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
@@ -148,7 +155,7 @@
                 android:maxLines="1"
                 android:text="@string/s3q1c2"
                 android:textAlignment="center"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textSize="20sp"
                 app:autoSizeMaxTextSize="20sp"
                 app:autoSizeMinTextSize="10sp"
@@ -159,7 +166,7 @@
         <LinearLayout
             android:id="@+id/photo_choice_3"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
@@ -179,7 +186,7 @@
                 android:fontFamily="@font/verdana"
                 android:text="@string/s3q1c3"
                 android:textAlignment="center"
-                android:textColor="#FFF"
+                android:textColor="#000"
                 android:textSize="20sp"
                 app:autoSizeMaxTextSize="20sp"
                 app:autoSizeMinTextSize="10sp"
@@ -210,7 +217,7 @@
 
         <TextView
             android:id="@+id/textView_timer"
-            android:layout_width="50dp"
+            android:layout_width="55dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="5dp"
@@ -218,8 +225,8 @@
             android:gravity="left"
             android:text="60s"
             android:textAlignment="textEnd"
-            android:textColor="#FFF"
-            android:textSize="24sp">
+            android:textColor="#000"
+            android:textSize="28sp">
 
         </TextView>
     </LinearLayout>
@@ -350,7 +357,7 @@
         android:fontFamily="@font/montserrat"
         android:text="Level 1 of 10"
         android:textAlignment="center"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
