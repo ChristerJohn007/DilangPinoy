@@ -6,6 +6,8 @@ import android.media.AudioAttributes;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -36,6 +38,17 @@ public class AncientActivity extends MainStageActivity {
     private LinearLayout[] choices;
     private ImageView[] images;
     private TextView[] imageTexts;
+    ImageView img1;
+    ImageView img2;
+    ImageView img3;
+    TextView lvldesc;
+
+
+
+    TextView instruction;
+    LinearLayout levelsbar;
+    TextView titlebar;
+    TextView currentLeveltext;
 
     public SoundPool soundPool;
 
@@ -92,6 +105,19 @@ public class AncientActivity extends MainStageActivity {
         wrong = soundPool.load(getApplicationContext(), R.raw.wrong, 1);
         correct = soundPool.load(getApplicationContext(), R.raw.correct, 1);
 
+        levelsbar=(LinearLayout) findViewById(R.id.linearLayout4);
+        titlebar=(TextView) findViewById(R.id.stage_text);
+        instruction=(TextView) findViewById(R.id.stage_instructions);
+        lvldesc=(TextView) findViewById(R.id.level_description);
+
+        Animation lvlbar = AnimationUtils.loadAnimation(AncientActivity.this, R.anim.bounce);
+        Animation titlebarx = AnimationUtils.loadAnimation(AncientActivity.this, R.anim.slide_in_bottom);
+        Animation inst = AnimationUtils.loadAnimation(AncientActivity.this, R.anim.fadein);
+        Animation lvldsc = AnimationUtils.loadAnimation(AncientActivity.this, R.anim.fadein2);
+
+        levelsbar.startAnimation(lvlbar);
+        titlebar.startAnimation(titlebarx);
+
 
         initLevel(level);
 
@@ -105,6 +131,18 @@ public class AncientActivity extends MainStageActivity {
 
 
         enableAllButtons();
+
+        img1=(ImageView) findViewById(R.id.image_1);
+        img2=(ImageView) findViewById(R.id.image_2);
+        img3=(ImageView) findViewById(R.id.image_3);
+        currentLeveltext=(TextView) findViewById(R.id.stage_text);
+
+        Animation img1anim = AnimationUtils.loadAnimation(AncientActivity.this, R.anim.pop_up_in);
+        Animation currentstage = AnimationUtils.loadAnimation(AncientActivity.this, R.anim.blink_anim);
+        img1.startAnimation(img1anim);
+        img2.startAnimation(img1anim);
+        img3.startAnimation(img1anim);
+        currentLevelText.startAnimation(currentstage);
 
 
         question.setText(ancientLevels.get(level).getQuestion());

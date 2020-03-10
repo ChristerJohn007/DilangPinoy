@@ -5,7 +5,10 @@ import android.media.AudioAttributes;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.dilangpinoy.R;
@@ -36,6 +39,11 @@ public class AnalogyActivity extends MainStageActivity {
 
     private Button[] choices;
     private TextView question;
+
+    TextView instruction;
+    LinearLayout levelsbar;
+    TextView titlebar;
+    TextView currentLeveltext;
 
     public SoundPool soundPool;
 
@@ -84,6 +92,18 @@ public class AnalogyActivity extends MainStageActivity {
         wrong = soundPool.load(getApplicationContext(), R.raw.wrong, 1);
         correct = soundPool.load(getApplicationContext(), R.raw.correct, 1);
 
+        levelsbar=(LinearLayout) findViewById(R.id.linearLayout4);
+        titlebar=(TextView) findViewById(R.id.stage_text);
+        instruction=(TextView) findViewById(R.id.stage_instructions);
+
+        Animation lvlbar = AnimationUtils.loadAnimation(AnalogyActivity.this, R.anim.bounce);
+        Animation titlebarx = AnimationUtils.loadAnimation(AnalogyActivity.this, R.anim.slide_in_bottom);
+        Animation inst = AnimationUtils.loadAnimation(AnalogyActivity.this, R.anim.fadein);
+        Animation lvldsc = AnimationUtils.loadAnimation(AnalogyActivity.this, R.anim.fadein2);
+
+        levelsbar.startAnimation(lvlbar);
+        titlebar.startAnimation(titlebarx);
+
 
         initLevel(level);
 
@@ -104,6 +124,10 @@ public class AnalogyActivity extends MainStageActivity {
 
 
         enableAllButtons();
+
+        currentLeveltext=(TextView) findViewById(R.id.stage_text);
+        Animation currentstage = AnimationUtils.loadAnimation(AnalogyActivity.this, R.anim.blink_anim);
+        currentLevelText.startAnimation(currentstage);
 
 
         question.setText(analogyLevel.get(level).getQuestion());
