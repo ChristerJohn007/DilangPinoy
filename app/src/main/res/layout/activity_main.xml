@@ -81,7 +81,7 @@
         android:id="@+id/easterEgg1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="public Stable Release Version 2.69b"
+        android:text="public Stable Release Version 3.69a"
         android:textColor="#FFF"
         android:background="@color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
