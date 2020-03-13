@@ -1,6 +1,8 @@
 package com.example.dilangpinoy.objects;
 
-public class LeaderboardItem {
+import androidx.annotation.NonNull;
+
+public class LeaderboardItem implements Comparable<LeaderboardItem>{
 
     private String name;
     private long score;
@@ -37,5 +39,16 @@ public class LeaderboardItem {
 
     public void setPosition(int position) {
         this.position = position;
+    }
+
+    @Override
+    public int compareTo(LeaderboardItem leaderboardItem) {
+        return this.getScore() > leaderboardItem.getScore() ? -1 : (this.getScore() < leaderboardItem.getScore()) ? 1 : 0;
+    }
+
+    @NonNull
+    @Override
+    public String toString() {
+        return "Position:"+getPosition()+" Name:"+getName()+" Score:"+getScore();
     }
 }

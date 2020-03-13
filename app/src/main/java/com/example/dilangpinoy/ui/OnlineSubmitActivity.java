@@ -104,7 +104,7 @@ public class OnlineSubmitActivity extends  BaseActivity {
                     if(userName.getText().length()>0){
                         mDatabase = FirebaseDatabase.getInstance().getReference();
                         LeaderboardItem userInfo=new LeaderboardItem(userName.getText().toString(),totalScore);
-                        mDatabase.child("leaderboard").child(userInfo.getPosition()+1+"").setValue(userInfo);
+                        mDatabase.child("leaderboard").child(""+opponentInfo.getPosition()).setValue(userInfo);
 
 
                     }else{

@@ -40,6 +40,7 @@ import com.squareup.picasso.Picasso;
 
 import java.net.InetAddress;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -93,8 +94,14 @@ public class LeaderboardsActivity extends BaseActivity implements LeaderboardLis
                 scores.clear();
                 for (DataSnapshot scoreSnapshot: dataSnapshot.getChildren()) {
                     LeaderboardItem item=scoreSnapshot.getValue(LeaderboardItem.class);
+                    //Add the score position
+                    item.setPosition(Integer.parseInt(scoreSnapshot.getKey().toString()));
                     scores.add(item);
                 }
+                Collections.sort(scores);
+
+
+
                 adapter=new LeaderboardListAdapter(LeaderboardsActivity.this,scores,LeaderboardsActivity.this);
                 leaderboardsListView.setAdapter(adapter);
                 loadingPB.setVisibility(View.GONE);

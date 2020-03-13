@@ -90,7 +90,7 @@ public class LeaderboardListAdapter extends BaseAdapter {
         challengeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                scores.get(scoreIndex).setPosition(scoreIndex+1);
+//                scores.get(scoreIndex).setPosition(scoreIndex+1);
                 mClickHandler.onClick(scores.get(scoreIndex));
             }
         });
