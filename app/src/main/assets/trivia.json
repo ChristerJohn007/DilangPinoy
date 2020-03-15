@@ -1,16 +1,16 @@
 {
   "trivia": [
     {
-      "text": "Alam mo ba na ang TikTok ay nakakasira ng pag-iisip?",
-      "imagePath":"ph8.jpg"
+      "text": "Alam mo ba na ang unang Tagalog ay mayroon lamang na 20 letra? A, B, K, D, E, G, H, I, L, M, N, NG, O, P, R, S, T, U, W at Y",
+      "imagePath":"abakada.jpg"
     },
     {
-      "text": "Tok-tok-tok, ako'y kumakatok",
-      "imagePath":"ph10.jpg"
+      "text": "Ang Tagalog ay nagmula sa salitang 'Taga-Ilog' ito'y dahil sa mga nakatira sa ilog pasig noong panahon ng Kastila",
+      "imagePath":"pasigriver.jpg"
     },
     {
-      "text": "We're going on a trip ...",
-      "imagePath":"ph9.png"
+      "text": "Ang Pilipinas ay mayroong 8 pangunahing dayalekto: Bikol, Cebuano, Hiligaynon (Ilonggo), Ilocano, Kapampangan, Pangasinan, Tagalog, at Waray",
+      "imagePath":"phmap.png"
     }
   ]
 }
