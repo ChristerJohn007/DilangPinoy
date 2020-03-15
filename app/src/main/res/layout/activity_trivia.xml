@@ -67,7 +67,7 @@
         android:fontFamily="@font/montserrat"
         android:textAlignment="center"
         android:textColor="@color/text_color_red"
-        android:textSize="24sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

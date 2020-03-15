@@ -253,7 +253,8 @@
             android:text="1"
             android:textAlignment="center"
             android:textColor="#FFF"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            />
 
         <TextView
             android:id="@+id/tv_level_2"

@@ -32,7 +32,7 @@
         android:id="@+id/easterEgg1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="public Stable release version 3.69a"
+        android:text="public Stable release version 3.69b"
         android:textColor="#FFF"
         android:background="@drawable/bgapp"
         android:textAllCaps="false"
