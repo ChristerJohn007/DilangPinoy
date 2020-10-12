@@ -32,13 +32,12 @@
         android:id="@+id/easterEgg1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="public Stable release version 3.69b"
-        android:textColor="#FFF"
         android:background="@drawable/bgapp"
+        android:text="public Stable release version 3.69b (Oct 2020 Test Git)"
         android:textAllCaps="false"
+        android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
